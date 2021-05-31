@@ -1,6 +1,5 @@
 package org.thinking.in.spring.ioc.overview.domain;
 
-import jdk.nashorn.internal.objects.annotations.Setter;
 
 /**
  * @program: User

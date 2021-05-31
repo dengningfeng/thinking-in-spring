@@ -8,7 +8,7 @@ import org.thinking.in.spring.ioc.overview.domain.User;
  * @author: dengningfeng
  * @cteate: 2021-05-24 11:30
  **/
-public class InstantiationFactoryMehod {
+public class InstantiationFactoryMehod implements UserFactory{
     public User createUser(){
         User user = new User();
         user.setId(5);
